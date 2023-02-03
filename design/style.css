@@ -1,0 +1,61 @@
+@import url('https: //fonts.google.com/specimen/Red+Hat+Text');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(234, 17%, 12%);
+    font-family: 'Red Hat Text', sans-serif;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 4px;
+}
+
+h1 {
+    color: white;
+    font-size: 15px;
+    padding-top: 10%;
+    font-weight: 700;
+}
+
+.countdown-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 50px;
+    padding: 40px;
+}
+
+.countdown-el {
+    padding-top: 10px;
+    text-align: center;
+}
+
+span {
+    line-height: 4;
+    color: hsl(237, 18%, 59%);
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.num-text {
+    background: hsl(236, 21%, 26%);
+    height: 130px;
+    width: 130px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 65px;
+    font-weight: 700;
+    color: hsl(222, 97%, 53%);
+}
+
+.social-icon svg {
+    position: absolute;
+    z-index: 1;
+}
